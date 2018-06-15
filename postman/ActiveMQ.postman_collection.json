@@ -1,0 +1,45 @@
+{
+	"variables": [],
+	"info": {
+		"name": "ActiveMQ",
+		"_postman_id": "bd2c9cb9-d850-8ead-dc36-7139280e7fc9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "FirstActiveMQ",
+			"request": {
+				"url": "http://localhost:9090/hello",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"userid\":\"7\" , \"username\":\"Kiran7\"}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "read message",
+			"request": {
+				"url": "http://localhost:9090/hello",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Parth Pophale"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
