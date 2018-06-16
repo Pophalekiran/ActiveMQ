@@ -5,3 +5,9 @@ spring:
     broker-url: tcp://localhost:61616
     user: admin
     password: admin
+weblogic:
+  jndi-name: weblogic.jndi.WLInitialContextFactory
+  connection-factory: jms/TestConnectionFactory
+  queue-name: jms/TestJMSQueue
+  broker-url: t3://localhost:7001
+Boroker: active
