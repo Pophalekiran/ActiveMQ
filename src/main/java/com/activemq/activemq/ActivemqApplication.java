@@ -34,7 +34,7 @@ public class ActivemqApplication {
     }
 
     @Bean
-    @ConditionalOnProperty(name="Boroker" ,havingValue = "Weblogic")
+    @ConditionalOnProperty(name="Boroker" ,havingValue = "noactive")
     WebLogicProducer webLogicProducer(){
         return new WebLogicProducer();
     }

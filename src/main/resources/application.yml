@@ -10,4 +10,4 @@ weblogic:
   connection-factory: jms/TestConnectionFactory
   queue-name: jms/TestJMSQueue
   broker-url: t3://localhost:7001
-Boroker: active
+Boroker: noactive
